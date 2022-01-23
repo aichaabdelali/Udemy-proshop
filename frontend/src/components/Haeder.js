@@ -11,11 +11,11 @@ const Haeder = () => {
             <Nav className="me-auto">
               <Nav.Link href="/cart">
                 {" "}
-                <i class="fas fa-shopping-cart"></i> Cart
+                <i className="fas fa-shopping-cart"></i> Cart
               </Nav.Link>
               <Nav.Link href="/login">
                 {" "}
-                <i class="fas fa-user"></i> Sign In
+                <i className="fas fa-user"></i> Sign In
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
