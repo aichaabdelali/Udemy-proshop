@@ -1,0 +1,22 @@
+{
+  "name": "proshop_udemy",
+  "version": "1.0.0",
+  "description": "Udemy Mern Course",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aichaabdelali/Udemy-proshop.git"
+  },
+  "author": "Aicha Abdel Ali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aichaabdelali/Udemy-proshop/issues"
+  },
+  "homepage": "https://github.com/aichaabdelali/Udemy-proshop#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
