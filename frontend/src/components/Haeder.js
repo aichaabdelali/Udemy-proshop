@@ -4,14 +4,14 @@ import { LinkContainer } from "react-router-bootstrap";
 const Haeder = () => {
   return (
     <header>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>ProShop</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="mr-auto">
               <LinkContainer to="/cart">
                 <Nav.Link>
                   {" "}
